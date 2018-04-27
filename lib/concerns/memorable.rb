@@ -4,11 +4,11 @@ module Memorable
 
         
         def reset_all
-            class_variables.clear
+            self.all.clear
         end 
 
         def count
-            class_variables.count
+            self.all.count
         end 
 
     end 
